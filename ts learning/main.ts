@@ -185,3 +185,26 @@ let combine:combinepicnic = {
 
 console.log(combine);
 
+
+
+let arr = ["bmw", "mercedes", "toyota", "kia", "lexus", "honda"]
+ let sliceArray = arr.slice(1,2)
+ let slice2Array = arr.slice(5,6)
+ console.log(sliceArray.concat(slice2Array));
+
+ arr.splice(2,1)
+ arr.splice(2,0,"suzuki")
+ console.log(arr);
+ 
+ 
+let arr2 = ["apple","orange","grapes"];
+arr2.splice(2,1,"banana");
+console.log(arr2);
+
+
+
+
+
+ 
+ 
+ 

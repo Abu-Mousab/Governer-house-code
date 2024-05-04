@@ -115,6 +115,10 @@ console.log(user3);
 //template literal
 let trafficjam = "red";
 console.log(trafficjam);
+// tpye union
+let mixedbag;
+mixedbag = "sunglass",
+    mixedbag = 20;
 let combine = {
     waterbottle: true,
     cap: true,
@@ -122,3 +126,13 @@ let combine = {
     map: true
 };
 console.log(combine);
+let arr = ["bmw", "mercedes", "toyota", "kia", "lexus", "honda"];
+let sliceArray = arr.slice(1, 2);
+let slice2Array = arr.slice(5, 6);
+console.log(sliceArray.concat(slice2Array));
+arr.splice(2, 1);
+arr.splice(2, 0, "suzuki");
+console.log(arr);
+let arr2 = ["apple", "orange", "grapes"];
+arr2.splice(2, 1, "banana");
+console.log(arr2);
